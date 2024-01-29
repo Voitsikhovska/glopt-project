@@ -11,4 +11,11 @@
   &:hover{
     box-shadow: 3px 3px 20px $btn-color;
   }
+  &_main{
+    display: block;
+    margin: 40px auto 0  ;
+    width: 230px;
+    height: 60px;
+    border-radius: 40px;
+  }
 }
