@@ -2,4 +2,53 @@
   padding: 25px 0  80px 0 ;
   background: url("../../img/bg_main.png") center (center / cover) no-repeat;;
   min-height: 682px;
+  &_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &_list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    width: 600px;
+
+  }
+  &_link {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    &:hover {
+      text-decoration: underline;
+      color: $btn-color;
+    }
+  }
+  &_question{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    font-weight: 300;
+    color: $primary-color;
+    text-align: end;
+    span{
+      font-size: 19px;
+      font-weight: 500;
+    }
+  }
+  &_items {
+    text-decoration: none;
+
+    padding-right: 15px;
+    text-align: center;
+    height: 30px;
+  }
+  .hr_list {
+    position: relative;
+    height: 23px;
+
+    opacity: 0.3;
+  }
 }
