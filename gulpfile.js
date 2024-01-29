@@ -33,7 +33,7 @@ gulp.task("watch", function () {
 });
 gulp.task("html", function () {
   return gulp
-    .src("src/*.html")
+    .src("src/index.html")
     .pipe(htmlmin({ collapseWhitespace: true }))
     .pipe(gulp.dest("dist/"));
 });
