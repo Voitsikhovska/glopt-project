@@ -1,0 +1,33 @@
+.manage{
+  margin-top: 55px;
+  background: url("../../img/manage_bg.jpg") center (center / cover) no-repeat;
+  height:340px;
+
+  &_img{
+    position: relative;
+    width: 105px;
+    height: 105px;
+    border: 1px solid $primary-color;
+    border-radius: 100%;
+    img{
+      padding: 20px 0 20px 0;
+    }}
+  &_wrapper{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 60px 0 57px 0;
+  }
+  &_descr{
+    font-size: 19px;
+    font-weight: 300;
+    width: 920px;
+    color:$primary-color;
+    h3{
+      font-size: 26px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      font-weight: 500;
+    }
+  }
+}
