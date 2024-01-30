@@ -2,11 +2,7 @@
   padding: 60px 0 55px 0;
   background-color: RGBA(243, 243, 243, 1);
   min-height: 590px;
-  &_title{
-    position: relative;
-    text-align: center;
-    font-size: 26px;
-  }
+
 &_wrapper{
   margin-top: 30px;
   display: grid;
@@ -24,11 +20,7 @@
   column-gap: 15px;
   padding-left: 25px;
 }
-  &_title{
-    text-transform: uppercase;
-    color:$secondary-color;
-    font-weight: 500;
-  }
+
   &_descr{
     h3{
       font-size: 16px;

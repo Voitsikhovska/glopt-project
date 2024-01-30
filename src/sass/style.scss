@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
 @import "base/variables";
+@import "base/title";
 
 .container{
   margin: 0 auto;
@@ -12,7 +13,9 @@
     margin: 0 auto;
   }
 
+
 @import "blocks/main";
 @import "blocks/buttons";
 @import "blocks/benefits";
+@import "blocks/delivery";
 

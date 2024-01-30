@@ -1,0 +1,37 @@
+.delivery{
+  padding: 50px 0 55px 0;
+  &_title{
+    padding-bottom: 20px;
+  }
+&_subtitle{
+  width: 880px;
+  }
+  &_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+  }
+  &_item{
+    text-align: center;
+
+  }
+  &_descr{
+    padding-top: 10px;
+    color:$secondary-color;
+    font-weight: 300;
+    h3 {
+      font-size: 16px;
+      color: $btn-color;
+      padding-bottom: 5px;
+    }
+  }
+}
+
+.divider{
+  text-align: center;
+  width: 150px;
+  height: 1px;
+  background-color:$btn-color;
+
+}
