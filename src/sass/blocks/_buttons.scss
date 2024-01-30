@@ -10,6 +10,9 @@
   font-size: 12px;
   &:hover{
     box-shadow: 3px 3px 20px $btn-color;
+
+      background-color: #DC5238;
+
   }
   &_main{
     display: block;
@@ -17,5 +20,10 @@
     width: 230px;
     height: 60px;
     border-radius: 40px;
+  }
+  &_submit{
+    position: relative;
+    width: 180px;
+    top: 20px;
   }
 }
