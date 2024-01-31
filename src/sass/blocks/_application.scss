@@ -1,0 +1,57 @@
+.application{
+  background: url("../../img/application_bg.jpg") center (center / cover) no-repeat;
+  padding: 60px 40px 80px 40px;
+  &_item{
+    min-height: 275px;
+    width: 900px;
+    background-color: RGBA(255, 255, 255, 1);
+padding-bottom: 10px;
+  }
+  &_head{
+    height: 70px;
+
+    background-color: RGBA(37, 51, 60, 1);
+    color:$primary-color;
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    h1{
+      padding-top: 15px ;
+      font-size: 19px;
+    }
+  }
+  &_forms{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+.feeds-form{
+  display: block;
+  padding-top: 20px;
+  input{
+    gap: 5px;
+    height: 45px;
+    width: 208px;
+    border-radius: 100px;
+    background-color: $primary-color;
+    border:1px solid #898989;
+    padding: 0 30px;
+    color: #898989;
+    font-size: 14px;
+    font-weight: 300;
+  }
+textarea{
+  display: block;
+  margin-top: 5px;
+  border-radius: 15px;
+  border:1px solid #898989;
+  width: 755px;
+  max-width: 755px;
+  min-height:35px;
+  padding: 20px 30px;
+  font-size: 14px;
+  font-weight: 300;
+  overflow: hidden;
+}
+}
