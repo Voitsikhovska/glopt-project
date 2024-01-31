@@ -1,0 +1,43 @@
+.scheme{
+  padding-top: 50px;
+  padding-bottom: 45px;
+  background-color: RGBA(243, 243, 243, 1);
+  &_wrapper{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap:45px;
+    align-items: center;
+  }
+  &_overlay{
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+    gap:45px;
+    align-items: center;
+    width: 870px;
+  }
+  &_item{
+    text-align: center;
+    width: 250px;
+    img{
+      padding-bottom: 10px;
+    }
+  }
+  &_item1{
+    text-align: center;
+    width: 230px;
+    img{
+      padding-bottom: 10px;
+    }
+  }
+  &_descr{
+    h3{
+      font-size: 16px;
+      color:$btn-color;
+      padding-bottom: 10px;
+    }
+    color:$secondary-color;
+    font-weight: 300;
+  }
+}
