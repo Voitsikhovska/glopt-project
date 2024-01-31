@@ -33,6 +33,7 @@
     "gulp-rename": "^2.0.0",
     "gulp-sass": "^5.1.0",
     "jquery": "^3.7.1",
-    "sass": "^1.63.3"
+    "sass": "^1.63.3",
+    "slick-carousel": "^1.8.1"
   }
 }

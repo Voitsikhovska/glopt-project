@@ -1,4 +1,4 @@
-function validateForms(form) {
+/*function validateForms(form) {
   $(form).validate({
     rules: {
       name: {
@@ -24,6 +24,39 @@ function validateForms(form) {
     },
   });
 }
-validateForms("#consultation-form");
+validateForms("#consultation-form");*/
 
+
+
+$(document).ready(function () {
+  $(".carousel_inner").slick({
+    speed: 1200,
+    adaptiveHeight: true,
+    prevArrow:
+      '<button type="button" class="slick-prev"><img src="../icons/carousel-left.png" /></button>',
+    nextArrow:
+      '<button type="button" class="slick-next"><img src="../icons/carousel-right.png" /></button>',
+    responsive: [
+
+      {
+        breakpoint: 768,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          centerPadding: '40px',
+          slidesToShow: 3
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          centerPadding: '40px',
+          slidesToShow: 1
+        }
+      },
+    ]
+  });
+});
 
