@@ -34,7 +34,19 @@
       flex-direction: column;
     }
     &_item{
-      width: 600px;
+      width: 540px;
+    }
+  }
+  .btn{
+    &_menu{
+      position: relative;
+      font-size: 16px;
+      margin: 10px 70px  ;
+      background-color:$primary-color;
+      color:$btn-color;
+      &:hover{
+        background-color:$primary-color ;
+      }
     }
   }
   .price{
@@ -55,6 +67,14 @@
       width: 200px;
     }
   }
+  .scheme{
+    &_item{
+      width: 200px;
+    }
+    &_descr{
+      height: 105px;
+    }
+  }
 }
 @media (max-width: 992px) {
   .container {
@@ -65,6 +85,7 @@
     max-width: 992px;
 
   }
+
   .main{
     &_header{
       padding-bottom: 30px;
@@ -231,6 +252,9 @@ min-height: 100px;
     }
   }
   .scheme{
+    &_descr{
+      height: 200px;
+    }
     &_overlay{
       width: 500px;
     }
@@ -276,18 +300,6 @@ min-height: 100px;
       }
     }
   }
-  .btn{
-    &_menu{
-      position: relative;
-      font-size: 16px;
-      margin: 10px 90px  ;
-      background-color:$primary-color;
-      color:$btn-color;
-      &:hover{
-        background-color:$primary-color ;
-      }
-    }
-  }
   .delivery{
     &_subtitle{
       max-width: 400px;
@@ -319,6 +331,10 @@ min-height: 100px;
     &_wrapper, &_overlay{
       width: 400px;
       flex-direction: column;
+      gap: 10px;
+    }
+    &_descr{
+      height: 60px;
     }
   }
   .application{
@@ -403,10 +419,85 @@ min-height: 100px;
 }
 @media (max-width: 375px) {
   .container {
-    width: 200px;
+    width: 250px;
     padding: 0 20px;
+  }
+  .menu_block{
+    width: 300px;
   }
   .main{
     text-align: center;
+    .main{
+      text-align: center;
+      &_elements{
+        max-width: 250px;
+        hr{
+          max-width: 50px;
+        }
+      }
+      &_items{
+        width: 200px;
+      }
+    }
+    .btn_main{
+      width: 200px;
+      margin: 0 auto;
+    }
+  }
+  .delivery{
+    &_subtitle{
+      max-width: 200px;
+    }
+    &_item{
+      width: 200px;
+      img{
+        max-width: 200px;
+      }
+    }
+    &_descr{
+      max-width: 200px;
+    }
+  }
+  .agent, .manage{
+    min-height: 500px;
+    &_descr{
+      max-width: 200px;
+
+    }
+  }
+  .price{
+    &_wrapper{
+      width: 250px;
+      display: flex;
+      flex-direction: column;
+    }
+    &_item{
+      width: 200px;
+      margin: 10px auto;
+    }
+  }
+  .feed-form, .feeds-form{
+    input{
+      width: 150px;
+      margin-bottom: 10px;
+    }
+    textarea{
+      max-width: 150px;
+    }
+  }
+  .scheme{
+    &_wrapper, &_overlay, &_item,&_item1{
+      width: 200px;
+    }
+  }
+  .application{
+    &_item{
+      width: 250px;
+    }
+  }
+  .footer{
+    &_title{
+      display: none;
+    }
   }
 }
