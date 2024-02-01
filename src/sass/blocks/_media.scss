@@ -168,10 +168,92 @@ min-height: 100px;
   .container {
     max-width: 540px;
   }
+  .main{
+    text-align: center;
+    &_elements{
+      width: 100%;
+      hr{
+        max-width: 250px;
+      }
+    }
+    &_overlay{
+      flex-direction: column;
+      height: 100%;
+    }
+    &_items{
+      min-height: 100px;
+    }
+    .btn{
+
+      &_main{
+        margin: 20px auto 0;
+      }
+    }
+  }
+  .benefits{
+    &_items{
+      padding: 0;
+    }
+  }
+  .delivery{
+    &_subtitle{
+      max-width: 500px;
+    }
+    &_descr{
+      max-width: 400px;
+    }
+  }
+  .agent, .manage{
+    &_descr{
+      max-width: 520px;
+    }
+  }
+  .price{
+    &_wrapper{
+      width: 520px;
+      display: grid;
+      grid-template-columns: repeat(2, auto);
+      column-gap: 35px;
+    }
+
+  }
+  .consultation{
+    &_forms{
+
+      height: 280px;
+    }
+  }
+  .feed-form{
+
+    input{
+      width: 300px;
+      margin-bottom: 10px;
+    }
+  }
+  .scheme{
+    &_overlay{
+      width: 500px;
+    }
+  }
+  .carousel{
+    display: none;
+  }
+  .application{
+    padding: 30px 20px;
+  }
+  .footer{
+    &_title{
+      text-align: center;
+    }
+    &_question{
+      display: none;
+    }
+  }
+;
 }
 @media (max-width: 576px) {
   .container {
     width: 100%;
-    padding: 0 10px;
+    padding: 0 20px;
   }
 }
