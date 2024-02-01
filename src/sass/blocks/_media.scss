@@ -309,13 +309,11 @@ min-height: 100px;
       width: 400px;
       display: flex;
       flex-direction: column;
-
     }
     &_item{
       width: 300px;
       margin: 10px auto;
     }
-
   }
   .scheme{
     &_wrapper, &_overlay{
@@ -337,6 +335,70 @@ min-height: 100px;
   }
   .main{
     text-align: center;
+    &_elements{
+      max-width: 350px;
+      hr{
+        max-width: 100px;
+      }
+    }
+  }
+  .benefits{
+    &_wrapper{
+      display: flex;
+      flex-direction: column;
+    }
+
+  }
+  .delivery{
+    &_subtitle{
+      max-width: 300px;
+    }
+    &_item{
+      width: 300px;
+      img{
+        max-width: 300px;
+      }
+    }
+    &_descr{
+      max-width: 300px;
+    }
+  }
+  .agent, .manage{
+    min-height: 400px;
+    &_descr{
+      max-width: 300px;
+
+    }
+  }
+  .price{
+    &_wrapper{
+      width: 300px;
+      display: flex;
+      flex-direction: column;
+    }
+    &_item{
+      width: 250px;
+      margin: 10px auto;
+    }
+  }
+  .feed-form, .feeds-form{
+    input{
+      width: 200px;
+      margin-bottom: 10px;
+    }
+    textarea{
+      max-width: 200px;
+    }
+  }
+  .scheme{
+    &_wrapper, &_overlay{
+      width: 300px;
+    }
+  }
+  .application{
+    &_item{
+      width: 300px;
+    }
   }
 }
 @media (max-width: 375px) {
