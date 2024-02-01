@@ -149,7 +149,7 @@
   &_block {
     position: relative;
     width: 345px;
-    background-color:rgb(236,100,75, 0.7);
+    background-color:rgb(236,100,75, 0.9);
     height: 100%;
     padding-top: 140px;
 
@@ -200,5 +200,18 @@ text-decoration: none;
     justify-content: space-between;
     align-items: center;
   }
-
+  &_question{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    font-weight: 300;
+    color: $primary-color;
+    text-align: end;
+    a{
+      color: $primary-color;
+      text-decoration: none;
+      font-size: 19px;
+      font-weight: 500;
+    }
+  }
 }

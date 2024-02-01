@@ -249,11 +249,102 @@ min-height: 100px;
       display: none;
     }
   }
-;
+
 }
 @media (max-width: 576px) {
   .container {
-    width: 100%;
+    width: 400px;
     padding: 0 20px;
+  }
+  .menu{
+    &_question{
+      margin-bottom: 10px;
+      text-align: center;
+      font-size: 18px;
+      font-weight: 500;
+    }
+  }
+  .main{
+    text-align: center;
+    &_question, .btn_main1{
+      display: none;
+    }
+    &_elements{
+      max-width: 400px;
+      hr{
+        max-width: 150px;
+      }
+    }
+  }
+  .btn{
+    &_menu{
+      position: relative;
+      font-size: 16px;
+      margin: 10px 90px  ;
+      background-color:$primary-color;
+      color:$btn-color;
+      &:hover{
+        background-color:$primary-color ;
+      }
+    }
+  }
+  .delivery{
+    &_subtitle{
+      max-width: 400px;
+    }
+    &_item{
+      width: 400px;
+    }
+    &_descr{
+      max-width: 350px;
+    }
+  }
+  .agent, .manage{
+    &_descr{
+      max-width: 400px;
+    }
+  }
+  .price{
+    &_wrapper{
+      width: 400px;
+      display: flex;
+      flex-direction: column;
+
+    }
+    &_item{
+      width: 300px;
+      margin: 10px auto;
+    }
+
+  }
+  .scheme{
+    &_wrapper, &_overlay{
+      width: 400px;
+      flex-direction: column;
+    }
+  }
+  .application{
+    &_item{
+      width: 400px;
+    }
+  }
+
+}
+@media (max-width: 480px) {
+  .container {
+    width: 300px;
+    padding: 0 20px;
+  }
+  .main{
+    text-align: center;
+  }
+}
+@media (max-width: 375px) {
+  .container {
+    width: 200px;
+    padding: 0 20px;
+  }
+  .main{
+    text-align: center;
   }
 }
