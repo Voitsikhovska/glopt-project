@@ -37,6 +37,27 @@
       width: 600px;
     }
   }
+  .price{
+    &_item{
+      width: 200px;
+      &-descr{
+        min-height: 65px;
+      max-width: 150px;
+    }
+    }
+    &_btn{
+      width: 100px;
+      font-size: 12px;
+
+    }
+
+
+  }
+  .feed-form{
+    input{
+      width: 200px;
+    }
+  }
 }
 @media (max-width: 992px) {
   .container {
